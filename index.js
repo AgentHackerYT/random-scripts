@@ -1,4 +1,4 @@
-const responses = require('./files/responses');
+const responses = require('./responses.js');
 
 module.exports = {
     scripts: (response) => {
