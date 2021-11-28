@@ -1,11 +1,11 @@
 # Random Scripts
- Its my first npm package
+- My First NPM Package
  # What is it?
  - You can get a random name of any programming language
  # How to use?
  ```js
- const script = require(`random-scripts`)
-script.scripts(result => {
-    console.log(result);
+ const { Scripts } = require(`random-scripts`)
+ Scripts(/*How many Programming Language Name Should Be Generated*/1 , /*Shows Number of Scripts Generated*/true)
 });
  ```
+# Developed By Agent Hacker/jenil-dev
