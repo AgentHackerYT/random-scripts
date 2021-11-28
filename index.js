@@ -25,6 +25,10 @@ function Generate(){
     const answer = answersArray[Math.floor(Math.random() * answersArray.length)];
     return answer
 }
+const Credits = () =>{
+    return `Developed By Agent Hacker#0477 , Version: ${require("./package.json").version}`
+}
 module.exports = {
-    Scripts
+    Scripts,
+    Credits
 }
